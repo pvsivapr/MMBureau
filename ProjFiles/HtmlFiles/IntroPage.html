@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html style="height:100%;width:100%">
+	<head>
+        <meta charset="UTF-8">
+		<title color="red">welcome</title>
+        <!-- <link rel="icon" type="image/jpg" href="ProjFiles\Images\TitleBarIcon.jpg" sizes="16x16"> -->
+        <link rel="stylesheet" href="..\CssFiles\IntroPageCss.css" type="text/css" media="screen" />
+				<!-- <link rel="stylesheet" href="ProjFiles\CssFiles\dropstyle.css" type="text/css" media="screen" /> -->
+        <script src="../JavaScript/IntroPageService.js" type="text/javascript"></script>
+	</head>
+	<body style="display: block; margin: 0px; padding : 0px; overflow : auto;" bgcolor="lightgreen" onresize="onResized()">
+		<center>
+            <div class="introPage">
+							 <!-- style="height: 615px; width : 100%; padding: 0; margin: auto" > -->
+                <div class="introLeftbody">
+									<center>
+										<div class="leftNavi">
+											<div class="leftNaviIcon">
+												<center>
+													<img src=""/>
+												</center>
+											</div>
+											<div class="leftNavText">
+												<center>
+													<button class="leftNaviBtn" style="color:red;" id="hme" onclick="HomeClicked()" >Home</button>
+												</center>
+											</div>
+										</div>
+										<div class="leftNavi">
+											<div class="leftNaviIcon">
+												<center>
+													<img src=""/>
+												</center>
+											</div>
+											<div class="leftNavText">
+												<center>
+													<button class="leftNaviBtn" id="login" onclick="SignInClicked()" >SignIn</button>
+												</center>
+											</div>
+										</div>
+										<div class="leftNavi">
+											<div class="leftNaviIcon">
+												<center>
+													<img src=""/>
+												</center>
+											</div>
+											<div class="leftNavText">
+												<center>
+													<button class="leftNaviBtn" id="logout" onclick="SignUpClicked()" >SignUp</button>
+												</center>
+											</div>
+										</div>
+										<div class="leftNavi">
+											<div class="leftNaviIcon">
+												<center>
+													<img src=""/>
+												</center>
+											</div>
+											<div class="leftNavText">
+												<center>
+													<button class="leftNaviBtn" id="setmatch" onclick="CheckMatchClicked()" >Check Match</button>
+												</center>
+											</div>
+										</div>
+									</center>
+								</div>
+                <div class="introRightbody">
+									<iframe class="frames" id="IntroBodyFrame" src="../HtmlFiles/IntroPageHome.html" height="100%" width="100%">
+									</iframe>
+                </div>
+            </div>
+		</center>
+	</body>
+</html>
